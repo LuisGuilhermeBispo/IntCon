@@ -31,7 +31,7 @@ $mailer->Password   = 'Inter@2016'; // Senha do servidor SMTP (senha do email us
 $mailer->setFrom('contato@intcon.com.br', 'IntCon'); // E-mail e Nome que o deseja representa-lo
 //SMTP --> Final 
 
-$pp->Subject = 'Form enviado pelo site Intera';
+$pp->Subject = 'Form enviado pelo site IntCon';
 
 $pp->attachFiles(['image']);
 
